@@ -1,0 +1,65 @@
+/* Fullscreen canvas */
+html,body{
+  height:100%;
+  margin:0;
+  background:#000;
+  overflow:hidden;
+}
+#scene{
+  display:block;
+  width:100vw;
+  height:100vh;
+}
+
+/* Simple fallback message style when canvas not supported */
+body:before{
+  content:"If you don't see the scene, open this file in a modern browser (Chrome/Edge/Firefox).";
+  position:fixed;
+  left:12px;
+  bottom:12px;
+  color:#888;
+  font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;
+  font-size:12px;
+  z-index:10;
+}
+
+/* Controls UI */
+#controls{
+  position:fixed;
+  left:16px;
+  top:16px;
+  display:flex;
+  gap:8px;
+  align-items:center;
+  background:rgba(8,8,12,0.45);
+  border:1px solid rgba(255,255,255,0.04);
+  padding:8px 10px;
+  border-radius:8px;
+  backdrop-filter: blur(6px);
+  z-index:50;
+}
+#controls button{
+  background:linear-gradient(#222,#111);
+  color:#fff;
+  border:1px solid rgba(255,255,255,0.06);
+  padding:6px 10px;
+  border-radius:6px;
+  cursor:pointer;
+  font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;
+}
+#controls input[type=range]{
+  width:120px;
+}
+
+#controls label{
+  color:#ddd;
+  font-size:13px;
+}
+
+/* Thunder checkbox spacing */
+#thunderToggle{
+  width:18px;
+  height:18px;
+}
+
+#controls input[type=range].small{ width:80px }

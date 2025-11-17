@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Red Moon — Night Forest Scene</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+
+    <div id="controls" aria-hidden="false">
+      <button id="enableSound" title="Enable sound">Enable Sound</button>
+      <button id="howlBtn" title="Play wolf howl">Howl</button>
+      <label for="volSlider">Wolf Volume</label>
+      <input id="volSlider" type="range" min="0" max="1" step="0.01" value="0.6">
+
+      <label for="thunderToggle">Thunder</label>
+      <input id="thunderToggle" type="checkbox">
+      <label for="thunderVol">Thunder Vol</label>
+      <input id="thunderVol" type="range" min="0" max="1" step="0.01" value="0.6">
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
