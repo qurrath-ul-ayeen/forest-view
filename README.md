@@ -1,4 +1,4 @@
-<h2 style="color:red; text-align:center;">FOREST VIEW - The Red Moon</h2>
+<h1 style="color:red; text-align:center;">FOREST VIEW - The Red Moon</h1>
 
 This is a small web project that renders a night forest scene with a red full moon, a howling wolf silhouette, moving clouds, rain and lightning using an HTML5 canvas.
 
@@ -14,7 +14,7 @@ Or run a simple local HTTP server (recommended):
 
 PowerShell (Windows):
 
-cd 'c:\xampp\htdocs\forest-view'
+cd 'c:\xampp\htdocs\forestview'
 python -m http.server 8000
 Then open 'http://localhost/forest view' in your browser.
 
