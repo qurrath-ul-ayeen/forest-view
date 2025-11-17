@@ -18,9 +18,10 @@ cd 'c:\xampp\htdocs\forest view'
 python -m http.server 8000
 ```
 
-Then open http://localhost:8000 in your browser.
+Then open 'http://localhost/forest view' in your browser.
 
 Notes and next steps
 - The visuals are generated procedurally — no external assets are required.
 - You can tweak values in `script.js` (cloud count, rain intensity, lightning frequency) to change the mood.
 - Possible improvements: add ambient sound (thunder/wind/howl), refine wolf silhouette, add more parallax layers.
+
