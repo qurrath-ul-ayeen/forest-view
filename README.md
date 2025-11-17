@@ -16,7 +16,7 @@ PowerShell (Windows):
 
 cd 'c:\xampp\htdocs\forest view'
 python -m http.server 8000
-Then open 'http://localhost/forest-view' in your browser.
+Then open "http://localhost/forest view" in your browser.
 
 Notes and next steps
 
